@@ -1,0 +1,4 @@
+<view class='index'>
+<swiper display-multiple-items='1' circular previous-margin='50rpx' next-margin='50rpx' >
+</swiper>
+</view>
