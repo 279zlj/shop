@@ -1,4 +1,19 @@
 <view class='index'>
-<swiper display-multiple-items='1' circular previous-margin='50rpx' next-margin='50rpx' >
+<swiper autoplay indicator-dots='true' display-multiple-items='1' circular   current='{{current}}'>
+  <block wx:for="{{imgurl}}" wx:key="{{index}}">
+    <swiper-item>
+      <image src='{{item}}'></image>
+      
+    </swiper-item>
+  </block>
 </swiper>
+<view style='display:flex;width:95%;margin:0 auto'>
+<view class='bb'>
+<button type='defalut' size='defalut' ><image src='../../images/address.png' style='width:1rem;height:1rem;'></image>
+<p style="font-size:.7em">未更新</p></button>
+</view>
+<view class="sear">
+<input type='text' placeholder='请输入关键字' auto-focus class='font' ></input>
+</view>
+</view>
 </view>

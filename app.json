@@ -1,11 +1,12 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/person/person"
+    "pages/person/person",
+    "pages/logs/logs"
+    
   ],
   "window": {
-    "navigationBarBackgroundColor": "#409EFF",
+    "navigationBarBackgroundColor": "#FF2400",
     "navigationBarTitleText": "首页",
     "navigationBarTextStyle": "white"
   },
